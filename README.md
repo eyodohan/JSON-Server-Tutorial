@@ -28,3 +28,7 @@ Yine kategorisi f ile başlayanları sergilemek için. "http://localhost:3000/pr
 
 
 Full text search yapmak için "http://localhost:3000/products?q=1000" "?q=..." şeklinde kullanırız
+
+
+embed keyword ile  product id sine göre review ları tablo gibi sunar "http://localhost:3000/products?_embed=reviews" yalnızca tek ürün için ise "http://localhost:3000/products/1?_embed=reviews" şeklinde kullanırız... Child araması gibi düşünebiliriz. Tam tersi de mümkün "_expand" ile...
+"http://localhost:3000/reviews?_expand=product" . TEk ürün için ise "http://localhost:3000/reviews/1?_expand=product" /1 || /2 şeklinde yazabiliriz.
