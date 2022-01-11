@@ -17,3 +17,11 @@ Default olarak 10 adet ürün gösterilir "http://localhost:3000/products?_page"
 
 
 NOT: Eğer tarayıcının devtools unu açarsak network sekmesinde istek yaptığımızda son sayfa ilk sayfa gibi linkler oluşturulur.
+
+
+Eğer ürünleri fiyatı 2000 ile 6000 arasında olanlara göre sıralamak istersek "http://localhost:3000/products?price_gte=2000&price_lte=6000" adresini kullanırız.
+"/products?price_gte=2000&price_lte=6000". 
+
+Not equal ile de ürünleri sergileyebiliriz. "http://localhost:3000/products?id_ne=1" adresi ile id si 1 olan hariç ürünler sergilenir.
+
+Yine kategorisi f ile başlayanları sergilemek için. "http://localhost:3000/products?category_like=^f"  "/products?category_like=^f" like operatörünü kullanırız.
