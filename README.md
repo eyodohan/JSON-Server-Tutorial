@@ -11,3 +11,6 @@ Descending olarak sıralamak için "http://localhost:3000/products?_sort=price&_
 
 
 Hem fiyata göre sıralamak hem de kategori ismini alfabetik sıralamak için "http://localhost:3000/products?_sort=price,category&_order=desc,asc"  "products?_sort=price,category&_order=desc,asc" ibaresini ekleriz ve bu şekilde fiyatı aynı olan ürünler varsa sıralaması alfabetik olur.
+
+
+Default olarak 10 adet ürün gösterilir "http://localhost:3000/products?_page" . Ancak sayfada gösterilecek ürünleri limitleyebiliriz. "http://localhost:3000/products?_page=1&_limit=2". Artık her sayfada 2 şer adet ürün gösterilir.
