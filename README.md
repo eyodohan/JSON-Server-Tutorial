@@ -25,3 +25,6 @@ Eğer ürünleri fiyatı 2000 ile 6000 arasında olanlara göre sıralamak ister
 Not equal ile de ürünleri sergileyebiliriz. "http://localhost:3000/products?id_ne=1" adresi ile id si 1 olan hariç ürünler sergilenir.
 
 Yine kategorisi f ile başlayanları sergilemek için. "http://localhost:3000/products?category_like=^f"  "/products?category_like=^f" like operatörünü kullanırız.
+
+
+Full text search yapmak için "http://localhost:3000/products?q=1000" "?q=..." şeklinde kullanırız
