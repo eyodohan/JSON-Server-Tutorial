@@ -14,3 +14,6 @@ Hem fiyata göre sıralamak hem de kategori ismini alfabetik sıralamak için "h
 
 
 Default olarak 10 adet ürün gösterilir "http://localhost:3000/products?_page" . Ancak sayfada gösterilecek ürünleri limitleyebiliriz. "http://localhost:3000/products?_page=1&_limit=2". Artık her sayfada 2 şer adet ürün gösterilir.
+
+
+NOT: Eğer tarayıcının devtools unu açarsak network sekmesinde istek yaptığımızda son sayfa ilk sayfa gibi linkler oluşturulur.
